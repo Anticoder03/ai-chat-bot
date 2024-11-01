@@ -18,7 +18,7 @@ export default function Bot() {
 
     try {
       const res = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyA-ijQEdKygn_Ok3RHlPtW24YUENYy5oXY",
+        url: process.env.REACT_APP_GEMINI_API_KEY,
         method: "post",
         data: { "contents": [{ "parts": [{ "text": question }] }] }
       });
