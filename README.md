@@ -6,7 +6,7 @@ To set up a secure environment with your `.env` file and replace sensitive keys 
 
    ```plaintext
    PORT=3001
-   MONGO_URI="mongodb+srv://Ashish:Ashish03@ashish.6itkf.mongodb.net/userCredentials"
+   MONGO_URI="your URI"
    FRONTEND_URL="http://localhost:3000"
    ```
 
